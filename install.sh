@@ -12,3 +12,5 @@ echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
 source /usr/local/bin/virtualenvwrapper.sh
 mkvirtualenv cloxhack
 pip install -r requirements.txt
+
+sudo cp cloxhack-supervisor.conf /etc/supervisor/conf.d/cloxhack.conf
