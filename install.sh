@@ -14,3 +14,5 @@ mkvirtualenv cloxhack
 pip install -r requirements.txt
 
 sudo cp cloxhack-supervisor.conf /etc/supervisor/conf.d/cloxhack.conf
+sudo supervisorctl reread
+sudo supervisorctl add cloxhack
